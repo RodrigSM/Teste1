@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Toast.makeText(this, R.string.welcome, Toast.LENGTH_SHORT).show()
     }
+    // sassasa
 /*
     override fun onStart() {
         super.onStart()
