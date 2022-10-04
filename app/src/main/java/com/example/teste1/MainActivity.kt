@@ -4,6 +4,7 @@ import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
@@ -12,7 +13,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Toast.makeText(this, R.string.welcome, Toast.LENGTH_SHORT).show()
     }
-    // sassasa
+
+    fun xpto(view: View) {}
+
 /*
     override fun onStart() {
         super.onStart()
